@@ -217,10 +217,10 @@ public class Monopoly {
                         rollTotal = rollOne + rollTwo;
 
                         //LOCATION OF THE PLAYER ON THE BOARD
-                        //System.out.println(Player.storeTheNames.get(playerThatIsPlaying) + ":" + locationOfThePlayer[playerThatIsPlaying]);
+                        System.out.println(Player.storeTheNames.get(playerThatIsPlaying) + ":" + locationOfThePlayer[playerThatIsPlaying]);
 
                         //IF THE LOCATION OF THE PLAYER IS MORE THAN THE LIMITS OF THE BOARD
-                        /*if (locationOfThePlayer[playerThatIsPlaying] + rollTotal >= 40) {
+                        if (locationOfThePlayer[playerThatIsPlaying] + rollTotal >= 40) {
                             System.out.println(" ");
                             System.out.println("You just passed 'Go'. Because of that, You earn $200!" );
                             locationOfThePlayer[playerThatIsPlaying] = locationOfThePlayer[playerThatIsPlaying] - 40;
@@ -232,8 +232,8 @@ public class Monopoly {
                             //ADDING $200 TO THE MONEY BALANCE OF THE PLAYER
                             moneyBalanceOfThePlayer[playerThatIsPlaying] = moneyBalanceOfThePlayer[playerThatIsPlaying] + 200;
                             System.out.println("Money balance:" +  "$" + moneyBalanceOfThePlayer[playerThatIsPlaying]);
-                        }*/
-
+                        }
+                        
                         System.out.println(" ");
                         System.out.println("Go ahead" + " " + rollTotal + " " + "steps");
 
